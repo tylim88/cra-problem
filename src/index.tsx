@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import * as A from './App';
 import reportWebVitals from './reportWebVitals';
+
+const G=A.B.App
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <G />
   </React.StrictMode>,
   document.getElementById('root')
 );
